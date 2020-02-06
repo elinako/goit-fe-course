@@ -1,0 +1,73 @@
+
+.navigation {
+    padding-top: 75px ; /* ATTENTION */
+}
+.navigation_list {
+  font-size: 0;
+  text-align: center;
+}
+.navigation_list_item {
+  display: inline-block;
+  margin-right: 121px;
+}
+
+.navigation_list_item:last-child {
+  margin-right: 0px;
+}
+
+.navigation_list_item :hover {
+  color: #03a9f4;
+}
+
+.navigation_list_item a {
+  color: #626262;
+  font-family: "PlayFair Display", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.about {
+  padding-top: 105px; /* ATTENTION */
+  font-size: 0;
+  text-align: auto;
+}
+.conteiner {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 102px;
+}
+
+.about_card {
+  display: inline-block;
+  margin-right: 60px;
+}
+
+.about_card:last-child {
+  margin-right: 0px;
+}
+
+.title {
+  color: #b4ad9e;
+  font-size: 14px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.title_card {
+  width: 420px;
+  color: #626262;
+  font-size: 30px;
+  font-family: "PlayFair Display", Arial, sans-serif;
+}
+
+.text_about_card {
+    width: 420px;
+    color: #626262;
+    font-size: 14px;
+    font-family: "PlayFair Display", Arial, sans-serif; 
+    line-height: 1.714; /* ATTENTION */
+    max-height:  65px; /* ATTENTION ATTENTION*/
+    overflow: hidden; /* ATTENTION*/
+}
