@@ -1,0 +1,238 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* NAVIGATION */
+
+.navigation {
+    padding-top: 73px ;
+}
+.navigation_list {
+  font-size: 0;
+  text-align: center;
+}
+.navigation_list_item {
+  display: inline-block;
+  margin-right: 120px;
+}
+
+.navigation_list_item:last-child {
+  margin-right: 0px;
+}
+
+.navigation_list_item a {
+  color: #626262;
+  font-family: "PlayFair Display", Arial, sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.navigation_list_item :hover {
+  color: #03a9f4;
+}
+
+/* SECTION FIRST */
+
+.lifestyle_first {
+  padding-top: 102.5px; 
+  font-size: 0;
+  text-align: auto;
+}
+.conteiner_lifestyle_first {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.about_card {
+  display: inline-block;
+  margin-right: 60px;
+  width: 420px;
+}
+
+.about_card:last-child {
+  margin-right: 0px;
+}
+
+.title {
+  color: #b4ad9e;
+  font-size: 14px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0px ;
+  line-height: 17px ;
+  text-align: left;
+  margin-top: 29.5px ;
+}
+
+.title_card {
+  color: #626262;
+  font-size: 30px;
+  font-family: "PlayFair Display", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 32px; 
+}
+
+.text_about_card {
+    width: 420px;
+    color: #626262;
+    font-size: 14px;
+    font-family: "PlayFair Display", Arial, sans-serif; 
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 40px;
+}
+
+/* SECTION SECOND */
+
+.photodiary {
+  padding-top: 133.5px; 
+  font-size: 0;
+  text-align: auto;
+}
+.conteiner_photodiary {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.about_card {
+  display: inline-block;
+  margin-right: 60px;
+  width: 420px;
+}
+
+.about_card:last-child {
+  margin-right: 0px;
+}
+
+.title {
+  color: #b4ad9e;
+  font-size: 14px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0px ;
+  line-height: 17px ;
+  text-align: left;
+  margin-top: 29.5px ;
+}
+
+.title_card {
+  color: #626262;
+  font-size: 30px;
+  font-family: "PlayFair Display", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 32px; 
+}
+
+.text_about_card {
+    width: 420px;
+    color: #626262;
+    font-size: 14px;
+    font-family: "PlayFair Display", Arial, sans-serif; 
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 39.5px;
+}
+
+/* SECTION THIRD */
+
+.lifestyle_second {
+  padding-top: 139.5px; 
+  font-size: 0;
+  text-align: auto;
+}
+.conteiner_lifestyle_second {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.about_card {
+  display: inline-block;
+  margin-right: 60px;
+  width: 420px;
+}
+
+.about_card:last-child {
+  margin-right: 0px;
+}
+
+.title {
+  color: #b4ad9e;
+  font-size: 14px;
+  font-family: "Ubuntu", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0px ;
+  line-height: 17px ;
+  text-align: left;
+  margin-top: 29.5px ;
+}
+
+.title_card {
+  color: #626262;
+  font-size: 30px;
+  font-family: "PlayFair Display", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 36px;
+  text-align: left;
+  margin-top: 32px; 
+}
+
+.text_about_card {
+    width: 420px;
+    color: #626262;
+    font-size: 14px;
+    font-family: "PlayFair Display", Arial, sans-serif; 
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 24px;
+    text-align: left;
+    margin-top: 39.5px;
+}
+
+/* BUTTON */
+
+.button {
+  display: block;
+  color: #626262;
+  width: 162px;
+  height: 58px;
+  border: 1px solid rgb(98, 98, 98);
+  font-family: "PlayFair Display", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  font-weight: 400;
+  background-color: transparent;
+  margin: 57.5px auto 70px auto;
+}
