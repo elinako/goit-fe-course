@@ -22,7 +22,7 @@ img {
 /* NAVIGATION */
 
 .navigation {
-  padding-top: 73px;
+  padding-top: 77px;
 }
 .navigation_list {
   font-size: 0;
@@ -30,9 +30,22 @@ img {
 }
 .navigation_list_item {
   display: inline-block;
-  margin-right: 120px;
 }
 
+.first {
+  margin-right: 121px;
+}
+.second {
+  margin-right: 102px;
+}
+
+.third {
+  margin-right: 95px;
+}
+
+.fourth {
+  margin-right: 0px;
+}
 .navigation_list_item:last-child {
   margin-right: 0px;
 }
@@ -51,7 +64,7 @@ img {
 /* SECTION FIRST */
 
 .lifestyle_first {
-  padding-top: 102.5px;
+  padding-top: 98px;
   font-size: 0;
 }
 .conteiner_lifestyle_first {
@@ -76,9 +89,9 @@ img {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 0px;
-  line-height: 17px;
+  line-height: 16.8px;
   text-align: left;
-  margin-top: 29.5px;
+  margin-top: 28px;
 }
 
 .title_card {
@@ -89,11 +102,10 @@ img {
   letter-spacing: 0px;
   line-height: 36px;
   text-align: left;
-  margin-top: 32px;
+  margin-top: 20px;
 }
 
 .text_about_card {
-  width: 420px;
   color: #626262;
   font-size: 14px;
   font-family: "PlayFair Display", Arial, sans-serif;
@@ -101,69 +113,25 @@ img {
   letter-spacing: 0px;
   line-height: 24px;
   text-align: left;
-  margin-top: 40px;
+  margin-top: 28px;
 }
 
 /* SECTION SECOND */
 
-.photodiary {
-  padding-top: 133.5px;
-  font-size: 0;
-}
 .conteiner_photodiary {
   width: 900px;
   margin: 0 auto;
 }
 
-.about_card {
-  display: inline-block;
-  margin-right: 60px;
-  width: 420px;
-}
-
-.about_card:last-child {
-  margin-right: 0px;
-}
-
-.title {
-  color: #b4ad9e;
-  font-size: 14px;
-  font-family: "Ubuntu", Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 0px;
-  line-height: 17px;
-  text-align: left;
-  margin-top: 29.5px;
-}
-
-.title_card {
-  color: #626262;
-  font-size: 30px;
-  font-family: "PlayFair Display", Arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0px;
-  line-height: 36px;
-  text-align: left;
-  margin-top: 32px;
-}
-
-.text_about_card {
-  width: 420px;
-  color: #626262;
-  font-size: 14px;
-  font-family: "PlayFair Display", Arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0px;
-  line-height: 24px;
-  text-align: left;
-  margin-top: 39.5px;
+.photodiary {
+  padding-top: 130px;
+  font-size: 0;
 }
 
 /* SECTION THIRD */
 
 .lifestyle_second {
-  padding-top: 139.5px;
+  padding-top: 135px;
   font-size: 0;
 }
 .conteiner_lifestyle_second {
@@ -171,52 +139,12 @@ img {
   margin: 0 auto;
 }
 
-.about_card {
-  display: inline-block;
-  margin-right: 60px;
-  width: 420px;
-}
-
-.about_card:last-child {
-  margin-right: 0px;
-}
-
-.title {
-  color: #b4ad9e;
-  font-size: 14px;
-  font-family: "Ubuntu", Arial, sans-serif;
-  text-transform: uppercase;
-  font-weight: 300;
-  letter-spacing: 0px;
-  line-height: 17px;
-  text-align: left;
-  margin-top: 29.5px;
-}
-
-.title_card {
-  color: #626262;
-  font-size: 30px;
-  font-family: "PlayFair Display", Arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0px;
-  line-height: 36px;
-  text-align: left;
-  margin-top: 32px;
-}
-
-.text_about_card {
-  width: 420px;
-  color: #626262;
-  font-size: 14px;
-  font-family: "PlayFair Display", Arial, sans-serif;
-  font-weight: 400;
-  letter-spacing: 0px;
-  line-height: 24px;
-  text-align: left;
-  margin-top: 39.5px;
-}
-
 /* BUTTON */
+
+.section_button {
+  width: 900px;
+  margin: 0 auto;
+}
 
 .button {
   display: block;
@@ -231,5 +159,6 @@ img {
   text-align: center;
   font-weight: 400;
   background-color: transparent;
-  margin: 57.5px auto 70px auto;
+  margin: 50px 378px 70px 360px;
+  cursor: pointer;
 }
