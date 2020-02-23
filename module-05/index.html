@@ -37,8 +37,7 @@
       <!-- SLIDER -->
 
       <section class="slider">
-
-        <img class="slider_img" src="./img/slider_back.jpg" alt="fun" width="1920" height="700" />
+        <h2>Slider</h2>
         <div class="slider_overlay">
           <div class="slider_text_content">
             <p class="slider_title">Affordable Paris tours</p>
@@ -48,8 +47,13 @@
               <li><a class="slider_text_item" href="#">Tour guides</a></li>
             </ul>
            </div>
-            <button>Arrow</button>
-            <button>Arrow</button>
+
+      <!-- BUTTON SLIDER -->
+
+           <div class="slider_button cleafix">
+            <button class="slider_button_next"></button>
+            <button class="slider_button_prev"></button>
+           </div>
         </div>
 
       </section>
@@ -57,72 +61,88 @@
       <!-- COLLECTION -->
 
       <section class="collection">
-        <p class="collection_title">New collection</p>
-        <ul>
-          <li>
-            <img src="./img/man_blue.jpg" alt="tshirt" />
-            <a href="#">Blue tshirt</a>
-            <p>$26</p>
+        <h2 class="collection_title">New collection</h2>
+        <div class="product_list">
+        <ul class="collection_list clearfix">
+          <li class="collection_list_item">
+            <img class="collection_list_item_img" src="./img/man_blue.jpg" alt="tshirt" width="255" height="281" />
+            <div class="collection_list_item_description clearfix">
+              <p class="collection_list_item_name" ><a class="collection_list_item_link" href="#">Blue tshirt</a>
+            <p class="collection_list_item_price">$26</p>
+            </div>
             <div class="overlay_collection">
-              <ul>
-                <li><button>Arrows</button></li>
-                <li><button>Clock</button></li>
-                <li><button>Add to cart</button></li>
-                <li><button>Heart</button></li>
-              </ul>
+              <div class="overlay_button_wrapper">
+                <ul class="overlay_collection_button clearfix">
+                  <li class="button_item"><button class="btn_heart"></button></li>
+                  <li class="button_item"><button class="btn_arrows"></button></li>
+                  <li class="button_item"><button class="btn_clock"></button></li>
+                  <li class="button_item"><button class="btn_cart">Add to cart</button></li>
+                </ul>
+              </div>
             </div>
           </li>
-
-          <li>
-            <img src="./img/woman_rose.jpg" alt="dress" />
-            <a href="#">Woman shirt</a>
-            <p>$32</p>
-            <div class="overlay_collection">
-              <ul>
-                <li><button>Arrows</button></li>
-                <li><button>Clock</button></li>
-                <li><button>Add to cart</button></li>
-                <li><button>Heart</button></li>
-              </ul>
+          <li class="collection_list_item">
+            <img class="collection_list_item_img" src="./img/woman_rose.jpg" alt="dress" width="255" height="281"  />
+            <div class="collection_list_item_description clearfix">
+            <p class="collection_list_item_name" ><a class="collection_list_item_link"  href="#">Woman shirt</a></p>
+            <p class="collection_list_item_price">$32</p>
+          </div>
+           <div class="overlay_collection">
+             <div class="overlay_button_wrapper">
+            <ul class="overlay_collection_button clearfix">
+              <li class="button_item"><button class="btn_heart"></button></li>
+              <li class="button_item"><button class="btn_arrows"></button></li>
+              <li class="button_item"><button class="btn_clock"></button></li>
+              <li class="button_item"><button class="btn_cart">Add to cart</button></li>
+            </ul>
+          </div>
             </div>
           </li>
-
-          <li>
-            <img src="./img/man_yellow.jpg" alt="tshirt" />
-            <a href="#">Yellow tshirt</a>
-            <p>$21</p>
+          <li class="collection_list_item ">
+            <img class="collection_list_item_img" src="./img/man_yellow.jpg" alt="tshirt" width="255" height="281" />
+            <div class="collection_list_item_description clearfix">
+              <p class="collection_list_item_name" ><a class="collection_list_item_link"  href="#">Yellow tshirt</a>
+            <p class="collection_list_item_price">$21</p>
+          </div>
             <div class="overlay_collection">
-              <ul>
-                <li><button>Arrows</button></li>
-                <li><button>Clock</button></li>
-                <li><button>Add to cart</button></li>
-                <li><button>Heart</button></li>
-              </ul>
+              <div class="overlay_button_wrapper">
+                <ul class="overlay_collection_button clearfix">
+                  <li class="button_item"><button class="btn_heart"></button></li>
+                  <li class="button_item"><button class="btn_arrows"></button></li>
+                  <li class="button_item"><button class="btn_clock"></button></li>
+                  <li class="button_item"><button class="btn_cart">Add to cart</button></li>
+                </ul>
+              </div>
             </div>
           </li>
-
-          <li>
-            <img src="./img/woman_swim.jpg" alt="swimsuit" />
-            <a href="#">Cool lingerie</a>
-            <p>$56</p>
+          <li class="collection_list_item">
+            <img class="collection_list_item_img" src="./img/woman_swim.jpg" alt="swimsuit" width="255" height="281"  />
+            <div class="collection_list_item_description clearfix">
+              <p class="collection_list_item_name" ><a class="collection_list_item_link" href="#">Cool lingerie</a>
+            <p class="collection_list_item_price">$56</p>
+          </div>
             <div class="overlay_collection">
-              <ul>
-                <li><button>Arrows</button></li>
-                <li><button>Clock</button></li>
-                <li><button>Add to cart</button></li>
-                <li><button>Heart</button></li>
-              </ul>
+              <div class="overlay_button_wrapper">
+                <ul class="overlay_collection_button clearfix">
+                  <li class="button_item"><button class="btn_heart"></button></li>
+                  <li class="button_item"><button class="btn_arrows"></button></li>
+                  <li class="button_item"><button class="btn_clock"></button></li>
+                  <li class="button_item"><button class="btn_cart">Add to cart</button></li>
+                </ul>
+              </div>
             </div>
           </li>
         </ul>
+      </div>
 
       </section>
 
       <!-- FOOTER -->
 
       <footer class="footer">
-        <p>All Rights Reserved © Dokan | Designed</p>
-        <p>ThemenGraph</p>
+        <div class="footer_text clearfix">
+        <p>All Rights Reserved © Dokan | Designed <a href="#">ThemenGraph</a></p> 
+        </div>
       </footer>
     </main>
   </body>
