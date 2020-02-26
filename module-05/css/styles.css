@@ -149,14 +149,9 @@
   top: 0;
   left: 0;
   background-color: rgba(0,0,2,0.522);
-  opacity: 0;
-  visibility: hidden;
-}
-
-.slider:hover .slider_overlay {
-  opacity: 1;
   visibility: visible;
 }
+
 
 .slider_title {
 font-family: "Roboto", Arial, sans-serif;
@@ -217,7 +212,7 @@ color: #ffffff;
 }
 
 .slider_button_prev {
-  background-color: rgba(78, 198, 171, 0.651);
+  background-color:  rgb(26, 188, 156);
   width: 104px;
   height: 104px;
   background-image: url("../img/btn_prev.png");
@@ -226,6 +221,14 @@ color: #ffffff;
   border: none;
   float: left;
   cursor: pointer;
+}
+
+.slider_button_next:hover {
+  background-color: rgba(78, 198, 171, 0.651);
+}
+
+.slider_button_prev:hover {
+  background-color: rgba(78, 198, 171, 0.651);
 }
 
 
