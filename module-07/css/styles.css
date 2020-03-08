@@ -59,24 +59,24 @@
          url("../fonts/aleo-v3-latin-italic.woff") format("woff"); /* Modern Browsers */
   }
 
-  /* roboto-slab-regular - latin */
+/* roboto-slab-regular - latin */
 @font-face {
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 400;
-    src: local(""),
-         url("../fonts/roboto-slab-v11-latin-regular.woff2") format("woff2"), /* Super Modern Browsers */
-         url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff"); /* Modern Browsers */
-  }
-  /* roboto-slab-500 - latin */
-  @font-face {
-    font-family: "Roboto Slab";
-    font-style: normal;
-    font-weight: 500;
-    src: local(""),
-         url("../fonts/roboto-slab-v11-latin-500.woff2") format("woff2"), /* Super Modern Browsers */
-         url("../fonts/roboto-slab-v11-latin-500.woff") format("woff"); /* Modern Browsers */
-  }
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+       url("../fonts/roboto-slab-v11-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/roboto-slab-v11-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-slab-500 - latin */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""),
+       url("../fonts/roboto-slab-v11-latin-500.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url("../fonts/roboto-slab-v11-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
 
   /* INSTEAD OF WISDOM SCRIPT */
   /* satisfy-regular - latin */
@@ -118,7 +118,7 @@
       justify-content: space-between;
       margin: 0 auto;
       padding-top: 50px;
-      margin-bottom: 100px;
+      margin-bottom: 80px;
   }
 
   .navigation_list {
@@ -154,6 +154,7 @@
   .services {
       width: 940px;
       margin: 0 auto;
+      margin-bottom: 65px;
   }
 
   .services_title {
@@ -169,11 +170,205 @@
 
   .services_title_text {
     font-family: "Aleo", serif;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0;
     color: #777777 ;
     font-style: italic;  
-    text-align: center;   
+    text-align: center;  
+    margin-bottom: 78px; 
   }
+
+  .services_list {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .services_list_item {
+    text-align: center;
+  }
+
+  .services_item_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #222222;
+    letter-spacing: 0;
+    margin-bottom: 24px;
+  }
+
+   .basket::before {
+    content: "";
+    display: block;
+    width: 74px;
+    height: 74px;
+    background-image: url("../img/icon_basket.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    margin-bottom: 26px ;
+  }
+
+  .laptop::before {
+    content: "";
+    display: block;
+    width: 74px;
+    height: 74px;
+    background-image: url("../img/icon_laptop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    margin-bottom: 26px ;
+  }
+
+  .locked::before {
+    content: "";
+    display: block;
+    width: 74px;
+    height: 74px;
+    background-image: url("../img/icon_locked.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    border: 3px solid rgb(254, 209, 54);
+    border-radius: 50%;
+    margin-bottom: 26px ;
+  }
+  
+  .services_item_text {
+    width: 278px;
+    font-family: "Roboto Slab", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: #777777;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+  }
+  
+/* FOOTER */
+
+.footer {
+  height: 675px;
+  width: auto;
+  background-color: #222222;
+  background-image: url(../img/map.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.form_container {
+  width: 940px;
+  padding-top: 106px;
+  margin: 0 auto;
+}
+
+.form_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px; 
+}
+
+.form_text {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0;
+  color: #777777 ;
+  font-style: italic;  
+  text-align: center;  
+  margin-bottom: 74px;
+}
+
+.form_lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input_item {
+  width: 459px;
+  height: 54px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 2px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #bbbbbb ;
+  text-transform: uppercase;  
+  padding-left: 20px;
+}
+
+.textarea {
+  width: 459px;
+  height: 214px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #bbbbbb ;
+  text-transform: uppercase;  
+  padding-left: 20px;
+  padding-top: 20px;
+  resize: none;
+}
+
+.form_inside_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.form_button {
+  display: block;
+  border-radius: 3px;
+  background-color: rgb(254, 209, 54); 
+  width: 240px;
+  height: 66px;
+  border: none;
+  font-family: "Montserrat", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0;
+  color: #ffffff ;
+  text-transform: uppercase; 
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.important:required:focus:valid:not(:placeholder-shown) {
+  outline: 2px solid green;
+}
+
+.important:required:focus:invalid:not(:placeholder-shown) {
+  outline: 2px solid red;
+}
