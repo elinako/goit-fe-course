@@ -331,6 +331,10 @@
   text-transform: uppercase;  
 }
 
+.input_item:focus {
+  outline: none;
+}
+
 .textarea {
   width: 459px;
   height: 214px;
