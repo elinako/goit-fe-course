@@ -69,7 +69,9 @@ a {
   height: 540px;
   position: relative;
   width: 320px;
+  margin: 0 auto;
   margin-bottom: 70px;
+
 }
 
 .header_overlay {
@@ -204,6 +206,7 @@ a {
 
 .main {
   width: 320px;
+  margin: 0 auto;
   margin-bottom: 58px;
 }
 .main_title {
