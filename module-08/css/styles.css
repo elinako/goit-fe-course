@@ -382,7 +382,7 @@ margin-bottom: 28px;
 
 /* MEDIA TABLET */
 
-@media (min-width:768px) and (max-width:1439px) {
+@media (max-width:768px) and (max-width:1439px) {
   .header {
     height: 700px;
     position: relative;
