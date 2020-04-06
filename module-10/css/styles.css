@@ -261,10 +261,6 @@
 
   /* SERVICES_ITEMS */
 
-  .section-services {
-    margin-bottom: 98px;
-  }
-
   .section-services__list {
     display: flex;
     width: 1200px;
@@ -373,23 +369,28 @@
 
   /*TEAM*/
 
-  .team_title {
-    width: 1200px;
-    text-align: center;
-    margin: 0 auto;
+  .section-team {
+      padding-top: 98px;
   }
 
-  .team_title_small {
+  .section-team__title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .section-team__title-small {
     font-family: "Kaushan Script", Arial, sans-serif;
     font-weight: 500;
     color: #333333;
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0;
+    margin: 0 auto;
     margin-bottom: 18px;
   }
 
-  .team_title_big {
+  .section-team__title-big {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     color: #333333;
@@ -397,9 +398,10 @@
     line-height: 36px;
     letter-spacing: 0;
     text-transform: uppercase;
+    margin: 0 auto;
   }
 
-  .team_title_big::after {
+  .section-team__title-big::after {
     content: "";
     display: block;
     width: 60px;
@@ -408,7 +410,7 @@
     margin: 40px auto 46px auto;
   }
 
-  .team_text {
+  .section-team__text {
     width: 980px;
     text-align: center;
     margin: 0 auto 90px auto;
@@ -420,17 +422,17 @@
     letter-spacing: 0;  
   }
 
-  .team_collection {
+  .section-team__collection {
     display: flex;
     width: 1200px;
     margin: 0 auto;
     justify-content: space-between;
   }
 
-  .team_member_photo {
+  .section-team__member-photo {
     margin-bottom: 30px;
   }
-  .team_member_name {
+  .section-team__member-name {
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -442,7 +444,7 @@
     margin-bottom: 12px;
   }
 
-  .team_member_position {
+  .section-team__member-position {
     text-align: center;
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 300;
@@ -453,7 +455,7 @@
     letter-spacing: 0;
   }
 
-  .section_team::after {
+  .section-team::after {
     content: "";
     display: block;
     width: 1200px;
@@ -462,14 +464,14 @@
     margin: 84px auto 10px auto;
   }  
 
-  .image_wrapper {
+  .section-team__image-wrapper {
     position: relative;
   }
 
 
   /* OVERLAY */
 
-  .image_overlay {
+  .overlay-wrapper__image-overlay {
     width: 380px;
     height: 470px;
     background-image: linear-gradient(0deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129, 0.9) 100%);
@@ -480,7 +482,7 @@
     visibility: hidden;
   }
 
-  .overlay_list {
+  .overlay-wrapper__list {
     width: 224px;
     position: absolute;
     top: 50%;
@@ -490,37 +492,46 @@
     justify-content: space-between;
   }
 
-  .overlay_item {
-    display: block;
+  .overlay-wrapper__list-link {
+    display: flex;
     width: 55px;
     height: 55px;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #fce38a;
     transition: all 200ms linear;
+    justify-content: center;
+    align-items: center;
+    fill: #f38181;
   }
 
-  .facebook {
-    background-image: url("../img/icons/facebook.png");
+  .overlay-wrapper__list-item-svg  {
+    height: 26px;
   }
 
-  .twitter {
-    background-image: url("../img/icons/twitter.png");
+  .overlay-wrapper__list-item-svg--facebook {
+    width: 13px;
   }
 
-  .pinterest {
-    background-image: url("../img/icons/pinterest.png");
+  .overlay-wrapper__list-item-svg--twitter {
+    width: 26px;
+    height: 21px;
   }
 
-  .instagram {
-    background-image: url("../img/icons/instagram.png");
+  .overlay-wrapper__list-item-svg--pinterest {
+    width: 20px;
   }
 
-  .overlay_item:hover {
-    background-color: #95e1d3;
+  .overlay-wrapper__list-item-svg--instagram {
+    width: 26px;
   }
 
-  .image_wrapper:hover .image_overlay {
+  .overlay-wrapper__list-link:hover {
+    background-color: #f38181;
+    fill:#fff;
+  }
+
+  .section-team__image-wrapper:hover .overlay-wrapper__image-overlay {
     top:-10px;
     left:-10px;
     box-shadow: 11px 11px #95e1d3;
@@ -530,17 +541,17 @@
 
   
   
-  
   /* FOOTER*/
   
-  .footer_information {
+  .footer__information {
     width: 1200px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto 12px auto;
+    align-items: center;
   }
 
-  .copyright {
+  .footer__information-copyright {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #333333;
@@ -549,7 +560,7 @@
     letter-spacing: 0;   
   }
 
-  .footer_link {
+  .footer__information-link {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     color: #f38181;
@@ -558,11 +569,11 @@
     letter-spacing: 0;  
   }
 
-  .footer_form {
+  .footer__form {
     display: flex;
     justify-content: flex-end;
   }
-  .button {
+  .button-subscribe {
     background-color: rgb(149, 225, 211);
     width: 150px;
     height: 40px;
@@ -577,7 +588,7 @@
     cursor: pointer;
   }
 
-  .email_space {
+  .footer__form-email-space {
     display: block;
     border-style: solid;
     border-width: 1px;
