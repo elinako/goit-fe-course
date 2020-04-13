@@ -1,0 +1,22 @@
+%background-set {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+%services-icon-set {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 28px; 
+}
+
+%flex-jf-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+%flex-jf-center {
+    display: flex;
+    justify-content: center; 
+}

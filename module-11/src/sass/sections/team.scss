@@ -1,0 +1,101 @@
+.section-team {
+    padding-top: 98px;
+
+    &__title {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    &__title-small {
+      font-family: $decorated-title-font;
+      font-weight: 500;
+      color: $secondary-title-color;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0;
+      margin: 0 auto;
+      margin-bottom: 18px;
+    }
+    
+    &__title-big {
+      font-family: $main-title-font;
+      font-weight: 700;
+      color: $secondary-title-color;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      margin: 0 auto;
+
+      &::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background-color: $decoration-element-color;
+        margin: 40px auto 46px auto;
+      }
+    }
+
+    &__text {
+      width: 980px;
+      text-align: center;
+      margin: 0 auto 90px auto;
+      font-family: $main-text-font;
+      font-weight: 500;
+      color: $main-text-color;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0;  
+    }
+
+    &__collection {
+      width: 1200px;
+      margin: 0 auto;
+      @extend %flex-jf-between;
+    }
+
+    &__member-photo {
+      margin-bottom: 30px;
+    }
+
+    &__member-name {
+      text-align: center;
+      font-family: $main-title-font;
+      font-weight: 500;
+      color: $secondary-title-color;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0;  
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    &__member-position {
+      text-align: center;
+      font-family: $main-text-font;
+      font-weight: 300;
+      font-style: italic;
+      color: $main-text-color;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 1200px;
+      height: 1px;
+      background-color: $line-after-team-color;
+      margin: 84px auto 10px auto;
+    }  
+    
+    &__image-wrapper {
+      position: relative;
+    }    
+
+}
+
+

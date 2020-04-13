@@ -1,0 +1,64 @@
+.footer__information {
+    width: 1200px;
+    @extend %flex-jf-between;
+    margin: 0 auto 12px auto;
+    align-items: center;
+
+    &-copyright {
+      font-family: $main-title-font;
+      font-weight: 500;
+      color: $secondary-title-color;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0;   
+    }
+
+    &-link {
+      font-family: $main-title-font;
+      font-weight: 500;
+      color: $decoration-element-color;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0;  
+    }
+
+  }
+
+  .footer__form {
+    display: flex;
+    justify-content: flex-end;
+
+    &-email-space {
+      display: block;
+      border-style: solid;
+      border-width: 1px;
+      border-color: $border-footer-form-color;
+      background-color: $secondary-font-color;
+      width: 232px;
+      height: 40px;
+      font-family: $main-text-font;
+      font-weight: 300;
+      font-style: italic;
+      color: $footer-form-text-color;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0;
+    }
+  }
+
+  .button-subscribe {
+    background-color: $accent-color;
+    width: 150px;
+    height: 40px;
+    font-family: $main-title-font;
+    color: $secondary-font-color;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0; 
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+  }
+
+
