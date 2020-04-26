@@ -1,7 +1,7 @@
-const total = 20;
-const ordered = 10;
-const balance =
-  ordered > total
-    ? "На складе недостаточно твоаров!"
-    : "Заказ оформлен, с вами свяжется менеджер";
-console.log(balance);
+let name = "Генератор защитного поля";
+let price = 1000;
+let userChoice = `Выбран «${name}», цена за штуку ${price} кредитов.`;
+console.log(userChoice);
+price = 2000;
+let userChoiceNew = `Выбран «${name}», цена за штуку ${price} кредитов.`;
+console.log(userChoiceNew);
