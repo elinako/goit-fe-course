@@ -3,18 +3,19 @@ let total = 0;
 let numbers = [];
 let arr;
 let message;
+const promptMessage = "Введите, пожалуйста, любое число:";
 
 while (input !== null) {
-  const promptMessage = "Введите, пожалуйста, любое число:";
   input = prompt(promptMessage);
   numbers.push(Number(input));
-  arr = numbers;
-  console.log(arr);
+  // arr = numbers;
+  console.log(numbers);
 }
 
-for (let i = 0; i < arr.length; i += 1) {
-  total = total + arr[i];
-  message = `Общая сумма чисел равна ${total}`;
+for (let i = 0; i < numbers.length; i += 1) {
+  total = total + numbers[i];
 }
+
+message = `Общая сумма чисел равна ${total}`;
 
 alert(message);
