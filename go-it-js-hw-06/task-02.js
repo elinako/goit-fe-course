@@ -86,7 +86,7 @@ const users = [
 ];
 
 const getUsersWithEyeColor = (users, color) => {
-  return users.filter((user) => user.eyeColor === "blue");
+  return users.filter((user) => user.eyeColor === color);
 };
 
 console.log(getUsersWithEyeColor(users, "blue"));

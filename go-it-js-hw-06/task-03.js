@@ -86,7 +86,7 @@ const users = [
 ];
 
 const getUsersWithGender = (users, gender) => {
-  const filteredGender = users.filter((user) => user.gender === "male");
+  const filteredGender = users.filter((user) => user.gender === gender);
   return filteredGender.map((male) => male.name);
 };
 
